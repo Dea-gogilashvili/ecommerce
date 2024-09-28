@@ -8,6 +8,8 @@ import FeaturedLatest from '../components/FeaturedLatest';
 import GridSecond from "../components/GridSecond";
 import NewsLetter from '../components/NewsLetter';
 import Footer from "../components/Footer";
+import Copyrightline from "../components/Copyrightline";
+
 
 
 const Main = () => {
@@ -23,6 +25,7 @@ const Main = () => {
       <GridSecond />
       <NewsLetter />
       <Footer />
+      <Copyrightline />
       
 
       {/* <h2>Main Page</h2> */}
