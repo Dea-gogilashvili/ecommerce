@@ -1,6 +1,6 @@
 const GridSecond = () => {
     return (
-      <div className="grid grid-cols-4 gap-6 p-4 max-w-[1116px] mx-auto my-6">
+      <div className="grid grid-cols-4 gap-6 p-4 max-w-[1200px] mx-auto my-6 ">
         
         <div>
             <img className="bg-gray-100 p-4 rounded" src="/img/shirt1.png"></img>

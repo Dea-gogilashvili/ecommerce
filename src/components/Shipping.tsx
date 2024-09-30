@@ -1,6 +1,6 @@
 const Shipping = () => {
     return (
-        <div className="flex justify-between space-x-4 mt-10 max-w-[1116px] mx-auto my-1">
+        <div className="flex justify-between space-x-4 mt-10 max-w-[1200px] m-auto ">
 
             <div className="">
                  <img src="/img/ShippingLogo.svg"></img>

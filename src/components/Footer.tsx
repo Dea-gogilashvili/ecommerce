@@ -1,6 +1,7 @@
 const Footer = () => {
   return (
-    <div className=" max-w-[1116px] mx-auto ">
+    <div className=" max-w-[1600px] m-auto">
+
       <div className="flex items-center gap-2 ">
         <img src="/img/EcommerceFoot.svg"></img>
         <span className="font-bold">Ecommerce</span>
@@ -16,23 +17,23 @@ const Footer = () => {
         <img src="/img/Instagram.svg" alt="Instagram Logo" />
       </div>
 
-      <div className="flex absolute gap-28">
-        <ul className=" pl-5 gap-3">
-          <h5 className="text-slate-400 font-medium">SUPPORT</h5>
+      <div className="flex absolute gap-28 ml-72 ">
+        <ul className=" pl-5">
+          <h5 className="text-slate-400 font-medium ">SUPPORT</h5>
           <li>FAQ</li>
           <li>Terms of use</li>
           <li>Privacy policy</li>
         </ul>
 
-        <ul className=" pl-5 gap-3">
+        <ul className=" pl-5 ">
           <h5 className="text-slate-400 font-medium">COMPANY</h5>
           <li>About us</li>
           <li>Contact</li>
           <li>Career</li>
         </ul>
 
-        <ul className=" pl-5 gap-3">
-          <h5 className="text-slate-400 font-medium">SHOP</h5>
+        <ul className=" pl-5 ">
+          <h5 className="text-slate-400 font-medium gap-">SHOP</h5>
           <li>My account</li>
           <li>Checkout</li>
           <li>Cart</li>

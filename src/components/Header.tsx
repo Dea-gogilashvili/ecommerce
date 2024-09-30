@@ -57,25 +57,25 @@
 
 const Header = () => {
   return (
-    <div>
-      <div className="py-4 bg-black text-center">
+    <div className="max-w-[1600px]  m-auto">
+      <div className="py-4 bg-black text-center ">
         <span className="text-white">Get 25% OFF on your first order. Order now</span>
       </div>
 
-      <div className="flex items-center max-w-[1116px] mx-auto my-6">
+      <div className="flex items-center  mx-auto my-6 max-w-[1600px] m-auto">
        
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 ml-24">
             <img src="/img/EcommerceLogo.svg"></img>
             <span className="font-bold">Ecommerce</span>
           </div>
 
-          <nav className="flex items-center font-medium gap-8 ml-[112px]">
+          <nav className="flex items-center font-medium gap-8 max-w-[1600px]  m-auto">
             <a href="/">Home</a>
             <a href="/">Categories</a>
             <a href="/">About</a>
             <a href="/">Contact</a>
 
-            <input type="search" placeholder="Search products" className=" border-2 border-gray-300 rounded-md p-2 ml-28"/>
+            <input type="search" placeholder="Search products" className=" border-2 border-gray-300 rounded-md p-2 ml-28  max-w-[1600px]  m-auto"/>
             <img src="/img/IconLogo.svg" alt="Sign in logo" />
             <img src="/img/ShoppingCart.svg" alt="Shopping cart" />
           </nav>
