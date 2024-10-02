@@ -4,7 +4,7 @@ const Slider = () => {
       <h2 className="font-black text-3xl ml-20">Fresh Arrivals Online </h2>
       <span className="ml-20">Discover Our Newest Collection Today.</span>
       <div className="py-10">
-        <button className="bg-black text-white w-44 h-11 ml-20">
+        <button className="bg-black text-white w-44 h-11 ml-20 rounded-md">
           View Collection →
         </button>
       </div>
