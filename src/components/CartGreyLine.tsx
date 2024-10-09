@@ -1,18 +1,19 @@
+import { Link } from "react-router-dom";
+
 const CartGreyLine = () => {
   return (
     <div className="flex flex-col space-y-2 justify-center py-[80px] px-10 bg-gray-200 h-[160px] max-w-[1600px] m-auto">
-
-      
       <div className="flex flex-col gap-3 ml-28 ">
         <h2 className="text-xl font-black">Cart</h2>
 
         <div className="flex gap-4">
-          <span>Ecommerce</span>
+          <Link to="/" className="">
+            Ecommerce
+          </Link>
           <img src="/img/Cartarrow.svg"></img>
           <span className="font-bold">Cart</span>
         </div>
       </div>
-
     </div>
   );
 };
