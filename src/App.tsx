@@ -1,5 +1,5 @@
 import "./App.css";
-import Details from "./pages/details";
+import Cart from "./pages/Cart";
 import Main from "./pages/Main";
 import { Routes, Route } from "react-router-dom";
 
@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Main/>} />
-        <Route path="/details" element={<Details/>} />
+        <Route path="/cart" element={<Cart/>} />
       </Routes>
     </>
   );
