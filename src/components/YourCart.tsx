@@ -1,3 +1,5 @@
+import Counter from "./Counter";
+
 const YourCart = () => {
   return (
     <div className=" max-w-[1600px] flex justify-between items-center m-auto mt-[56px]">
@@ -5,7 +7,7 @@ const YourCart = () => {
         <h5 className="font-semibold max-w-[1600px] mb-4">Your cart</h5>
         <hr className=" text-slate-500 h-6 w-[628px] "></hr>
         <div className="space-y-9 mt-6 ">
-          <div className="flex gap-8  ">
+          <div className="flex gap-8">
             <img className="h-[80px] w-[80px]" src="/img/FirstShirt.svg"></img>
             <div className="mt-3">
               <span className="font-bold text-sm">
@@ -17,6 +19,8 @@ const YourCart = () => {
                 <span> — Size: M </span>
 
                 <span className="font-semibold"> $75.00 </span>
+                <Counter/>
+                <img src="/img/remove.svg"></img>
               </div>
             </div>
           </div>
@@ -30,6 +34,8 @@ const YourCart = () => {
                 <span> — Size: M </span>
 
                 <span className="font-semibold"> $22.00 </span>
+                <Counter/>
+                <img src="/img/remove.svg"></img>
               </div>
             </div>
           </div>

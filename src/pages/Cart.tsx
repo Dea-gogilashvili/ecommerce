@@ -11,7 +11,7 @@ const Main = () => {
       <Header />
       <CartGreyLine />
       <YourCart />
-      <Counter />
+     
       
       
       

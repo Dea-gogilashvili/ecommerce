@@ -11,7 +11,7 @@ const Counter = () => {
     };
 
     return (
-        <div  className='border-solid border-2 border-inherit'>
+        <div  className='border-solid border-2 border-inherit w-[107px] h-[40px] flex items-center gap-6 rounded'>
             <button onClick={minus} className=''>
                  <img className='' src='/img/minus.svg'/>
             </button>
@@ -27,6 +27,8 @@ const Counter = () => {
 };
 
 export default Counter;
+
+
 
 
 
