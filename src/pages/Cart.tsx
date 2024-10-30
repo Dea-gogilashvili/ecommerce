@@ -1,6 +1,8 @@
 import Header from "../components/Header";
 import CartGreyLine from "../components/CartGreyLine";
-import YourCart from "../components/YourCart"
+import YourCart from "../components/YourCart";
+import Counter from "../components/Counter";
+
 
 
 const Main = () => {
@@ -9,6 +11,8 @@ const Main = () => {
       <Header />
       <CartGreyLine />
       <YourCart />
+      <Counter />
+      
       
       
 
