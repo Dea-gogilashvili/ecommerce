@@ -1,7 +1,9 @@
 const Footer = () => {
 //  ეს თავიდან გავაკეთო
   return (
-   <div></div>
+   <div>
+    
+   </div>
   );
 };
 
