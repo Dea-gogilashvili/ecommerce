@@ -1,4 +1,6 @@
 import Counter from "./Counter";
+import { Link } from 'react-router-dom';
+
 
 const YourCart = () => {
   return (
@@ -48,7 +50,7 @@ const YourCart = () => {
         </div>
       </div>
 
-      <div className="max-w-[342px] max-h-[431px] border-solid border-2 border-inherit flex gap-6 flex-col pl-6 pr-6 pt-9">
+      <div className="max-w-[342px] max-h-[500px] border-solid border-2 border-inherit flex gap-6 flex-col pl-6 pr-6 pt-9">
         <h3 className="font-semibold ">Order Summary</h3>
 
         <div className="flex gap-40 mt-4">
@@ -66,18 +68,24 @@ const YourCart = () => {
           <span className="font-medium">$3.00</span>
         </div>
 
-        <hr className=" text-slate-500 h-8 w-[293px] "></hr>
+        <hr className=" text-slate-500 h-1 w-[293px] mb-0"></hr>
 
-        <div className="flex gap-44">
+        <div className="flex gap-44 mt-0">
           <span className="font-medium">Total :</span>
           <span className="font-medium">$100.00</span>
         </div>
 
-        <button className="bg-black text-white w-[296x] h-[44px] rounded">
-          Check out
-        </button>
 
-        <span className="underline flex justify-center items-center mb-11">Continue Shopping</span>
+        
+        <Link to="/checkout" className="">
+          <button className="bg-black text-white w-[296px] h-[44px] rounded">Checkout</button>
+       </Link>
+
+        
+           
+        
+
+        <span className="underline flex justify-center items-center mb-8 ">Continue Shopping</span>
       </div>
     </div>
   );

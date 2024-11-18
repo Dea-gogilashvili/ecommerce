@@ -16,8 +16,8 @@ const Counter = () => {
                  <img className='' src='/img/minus.svg'/>
             </button>
    <p>{count}</p>
-            <button onClick={plus} className=''>
-                 <img className='' src='/img/plus.svg'/>
+            <button onClick={plus}>
+                 <img src='/img/plus.svg'/>
             </button>
 
            
