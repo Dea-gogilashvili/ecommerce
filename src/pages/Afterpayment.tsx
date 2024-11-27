@@ -4,6 +4,7 @@ import Succsessfulpaymentbottomhalf from "../components/Succsessfulpaymentbottom
 
 
 import Copyrightline from "../components/Copyrightline";
+import Footer from "../components/Footer";
 
 
 
@@ -12,8 +13,10 @@ const   Afterpayment = () => {
     <div>
       <Header />
       <Afterpaymentgreenline/>
-      <Copyrightline/>
       <Succsessfulpaymentbottomhalf/>
+      <Footer/>
+      <Copyrightline/>
+      
      
       
       

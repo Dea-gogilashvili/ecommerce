@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Copyrightline from "../components/Copyrightline";
 import CheckoutGreyLine from "../components/CheckoutGreyLine";
 import Shippingadress from "../components/Shippingadress";
+import Footer from "../components/Footer";
 
 const Checkout = () => {
     return (
@@ -10,7 +11,9 @@ const Checkout = () => {
         <Header />
         <CheckoutGreyLine/>
         <Shippingadress/>
+        <Footer/>
         <Copyrightline/>
+        
        
         
         

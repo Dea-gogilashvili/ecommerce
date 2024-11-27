@@ -3,7 +3,9 @@ import Cart from "./pages/Cart";
 import Main from "./pages/Main";
 import Checkout from "./pages/Checkout";
 import  Afterpayment from "./pages/Afterpayment";
+import Login from "./pages/Login";
 import { Routes, Route } from "react-router-dom";
+
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
         <Route path="/cart" element={<Cart/>} />
         <Route path="/checkout" element={<Checkout/>} />
         <Route path="/afterpayment" element={<Afterpayment/>}/>
+        <Route path="/login" element={<Login/>}/>
 
       </Routes>
     </>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Shippingadress = () => {
   return (
-    <div className="flex  justify-between max-w-[1116px] m-auto mt-[56px]">
+    <div className="flex  justify-between max-w-[1116px] m-auto mt-[56px] pb-44">
       <div>
       <div>
       <p className='text-[16px] text-[#0E1422] font-semibold'>Shipping Address</p>
