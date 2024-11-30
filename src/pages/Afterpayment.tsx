@@ -15,7 +15,8 @@ const   Afterpayment = () => {
       <Afterpaymentgreenline/>
       <Succsessfulpaymentbottomhalf/>
       <Footer/>
-      <Copyrightline/>
+      <Copyrightline/> 
+      
       
      
       
