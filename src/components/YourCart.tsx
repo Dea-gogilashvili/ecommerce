@@ -4,6 +4,25 @@ import { Link } from 'react-router-dom';
 
 const YourCart = () => {
   return (
+
+<div>
+
+
+<div className="flex flex-col space-y-2 justify-center  bg-gray-200 h-[160px] max-w-[1600px] m-auto">
+      <div className="flex flex-col gap-3 ml-28 ">
+        <h2 className="text-xl font-black">Cart</h2>
+
+        <div className="flex gap-4">
+          <Link to="/" className="">
+            Ecommerce
+          </Link>
+          <img src="/img/Cartarrow.svg"></img>
+          <span className="font-bold">Cart</span>
+        </div>
+      </div>
+    </div>
+
+
     <div className=" max-w-[1116px] flex items-center  justify-between mt-[35px] m-auto pb-40">
       <div>
         <h5 className="font-semibold max-w-[1600px] mb-4">Your cart</h5>
@@ -87,6 +106,7 @@ const YourCart = () => {
 
         <span className="underline flex justify-center items-center mb-8 ">Continue Shopping</span>
       </div>
+    </div>
     </div>
   );
 };

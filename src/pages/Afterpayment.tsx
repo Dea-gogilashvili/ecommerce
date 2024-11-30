@@ -1,27 +1,17 @@
 import Header from "../components/Header";
 import Afterpaymentgreenline from "../components/Afterpaymentgreenline";
-import Succsessfulpaymentbottomhalf from "../components/Succsessfulpaymentbottomhalf";
-
+import Succsessfulpayment from "../components/Succsessfulpayment";
 
 import Copyrightline from "../components/Copyrightline";
 import Footer from "../components/Footer";
 
-
-
-const   Afterpayment = () => {
+const Afterpayment = () => {
   return (
     <div>
       <Header />
-      <Afterpaymentgreenline/>
-      <Succsessfulpaymentbottomhalf/>
-      <Footer/>
-      <Copyrightline/> 
-      
-      
-     
-      
-      
-      
+      <Succsessfulpayment />
+      <Footer />
+      <Copyrightline />
 
       {/* <h2>afterpayment</h2> */}
     </div>
