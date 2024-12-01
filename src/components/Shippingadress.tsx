@@ -72,17 +72,17 @@ const Shippingadress = () => {
           <div className="flex justify-between w-[372px] mt-[64px]">
             <div className="flex gap-[12px]">
               <img
-                className="w-[40px] h-[40px] transition hover:scale-110 hover:-translate-y-1 duration-500"
+                className="w-[40px] h-[40px] transition hover:scale-150 hover:-translate-y-1 duration-500"
                 src="/img/littlecircleimgshirt3.svg"
                 alt=""
               />
               <img
-                className="w-[40px] h-[40px] transition hover:scale-110 hover:-translate-y-1 duration-500"
+                className="w-[40px] h-[40px] transition hover:scale-150 hover:-translate-y-1 duration-500"
                 src="/img/littlecircleimgshirt2.svg"
                 alt=""
               />
               <img
-                className="w-[40px] h-[40px] transition hover:scale-110 hover:-translate-y-1 duration-500"
+                className="w-[40px] h-[40px] transition hover:scale-150 hover:-translate-y-1 duration-500"
                 src="/img/littlecircleimgshirt.svg"
                 alt=""
               />
