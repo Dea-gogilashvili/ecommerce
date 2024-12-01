@@ -9,9 +9,11 @@ import Forgotpassword from "./pages/Forgotpassword";
 import Resetpassword from "./pages/Resetpassword";
 import Unsuccessfulpaymentpage from "./pages/Unsuccessfulpaymentpage"
 import Profilepagesadress from "./pages/Profilepagesadress"
-
+import Wishlistprofilepage from "./pages/Wishlistprofilepage";
+import Accountdetailsprofilepage from "./pages/Accountdetailsprofilepage";
 
 import { Routes, Route } from "react-router-dom";
+
 
 
 const App = () => {
@@ -28,6 +30,8 @@ const App = () => {
         <Route path="/resetpassword" element={<Resetpassword/>}/>
         <Route path="/unsuccessfulpaymentpage" element={<Unsuccessfulpaymentpage/>}/>
         <Route path="/profilepagesadress" element={<Profilepagesadress/>}/>
+        <Route path="/wishlistprofilepage" element={<Wishlistprofilepage/>}/>
+        <Route path="/accountdetailsprofilepage" element={<Accountdetailsprofilepage/>}/>
         
        
 

@@ -1,29 +1,35 @@
+import { Link } from "react-router-dom";
+
 const Profileadress = () => {
   return (
     <div className=" max-w-[1600px]">
       <div className="flex flex-col space-y-2 justify-center  bg-gray-200 h-[160px] max-w-[1600px] m-auto">
         <div className="flex flex-col gap-3 ml-28 ">
-          <h2 className="text-xl font-black">Reset password</h2>
+          <h2 className="text-xl font-black">My account</h2>
 
           <div className="flex gap-4">
             <span> Ecommerce </span>
 
             <img src="/img/Cartarrow.svg"></img>
-            <span className="font-bold">Reset password</span>
+            <span className="font-bold">My account</span>
           </div>
         </div>
       </div>
 
       <div className="flex items-center gap-10 ml-56 my-11">
-        <ul className="space-y-8">
+        <ul className="space-y-8 flex flex-col gap-3">
           <li className="flex gap-3 text-slate-400 font-medium cursor-pointer">
             <img src="/img/Orders.svg" alt="Orders" />
             Orders
           </li>
-          <li className="flex gap-3 text-slate-400 font-medium cursor-pointer">
-            <img src="/img/Wishlist.svg" alt="Wishlist" />
-            Wishlist
-          </li>
+
+          <Link to="/Wishlistprofilepage">
+            <li className="flex gap-3 text-slate-400 font-medium cursor-pointer">
+              <img src="/img/Wishlist.svg" alt="Wishlist" />
+              Wishlist
+            </li>
+          </Link>
+
           <li className="flex gap-3 bg-slate-200 text-inherit font-medium rounded-lg w-[150px] h-[40px] items-center px-2 ">
             <img
               src="/img/Adress.svg"
@@ -56,7 +62,7 @@ const Profileadress = () => {
 
             <div>
               <label className="block mt-[50px]" htmlFor="address">
-               Street address
+                Street address
               </label>
               <input
                 className="border border-1 rounded-[6px] w-[534px] h-[45px] pl-2"
@@ -103,9 +109,9 @@ const Profileadress = () => {
               </div>
             </div>
 
-            <button className="px-4 py-2 bg-black text-white rounded-md mt-[40px]">Save changes</button>
-
-            
+            <button className="px-4 py-2 bg-black text-white rounded-md mt-[40px]">
+              Save changes
+            </button>
           </div>
         </div>
       </div>

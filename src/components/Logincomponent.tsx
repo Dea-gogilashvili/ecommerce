@@ -46,7 +46,7 @@ const Login = () => {
         </div>
 
        
-        <form>
+       <div> 
           <div className="mb-4">
             <label htmlFor="email" className="block text-sm font-medium text-gray-700">
               Email
@@ -85,7 +85,7 @@ const Login = () => {
           >
             Login
           </button>
-        </form>
+        </div>
 
         
         <p className="mt-6 text-center text-sm text-gray-600">
