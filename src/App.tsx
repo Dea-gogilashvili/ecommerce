@@ -14,6 +14,7 @@ import Accountdetailsprofilepage from "./pages/Accountdetailsprofilepage";
 import Profilepageorders from "./pages/Profilepageorders";
 import Profilepagepassword from "./pages/Profilepagepassword";
 import Profilepagenoorders from "./pages/Profilepagenoorders"
+import Adminpagelogin from "./pages/Adminpagelogin"
 
 import { Routes, Route } from "react-router-dom";
 
@@ -39,6 +40,7 @@ const App = () => {
         <Route path="/profilepageorders" element={<Profilepageorders/>}/>
         <Route path="/profilepagepassword" element={<Profilepagepassword/>}/>
         <Route path="/profilepagenoorders" element={<Profilepagenoorders/>}/>
+        <Route path="/adminpagelogin" element={<Adminpagelogin/>}/>
         
        
 
