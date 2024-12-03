@@ -15,8 +15,10 @@ import Profilepageorders from "./pages/Profilepageorders";
 import Profilepagepassword from "./pages/Profilepagepassword";
 import Profilepagenoorders from "./pages/Profilepagenoorders"
 import Adminpagelogin from "./pages/Adminpagelogin"
+import Adminpagedashboard from "./pages/Adminpagedashboard";
 
 import { Routes, Route } from "react-router-dom";
+
 
 
 
@@ -41,6 +43,7 @@ const App = () => {
         <Route path="/profilepagepassword" element={<Profilepagepassword/>}/>
         <Route path="/profilepagenoorders" element={<Profilepagenoorders/>}/>
         <Route path="/adminpagelogin" element={<Adminpagelogin/>}/>
+        <Route path="/adminpagedashboard" element={<Adminpagedashboard/>}/>
         
        
 
