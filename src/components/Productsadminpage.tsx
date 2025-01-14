@@ -156,32 +156,6 @@
 //                       <td className="px-6 py-4">Completed</td>
 //                       <td className="px-11 py-4">⋯</td>
 //                  </tr>  
-                     
-                   
-
-                    
-
-                    
-                
-                      
-                  
-                    
-                 
-                     
-                      
-                     
-                    
-                  
-
-                   
-                      
-                   
-                 
-
-                 
-                   
-                  
-                   
                  
 //                 </tbody>
 //               </table>
