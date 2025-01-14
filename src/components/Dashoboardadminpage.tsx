@@ -104,68 +104,134 @@ const Dashboardadminpage = () => {
           </div>
         </div>
 
-
-
         <div className=" grid grid-cols-2 mt-11 ">
           <div className=" max-w-[330px] max-h-[475px] flex flex-col  gap-2 bg-white rounded-lg shadow-lg p-4">
-          <div className="w-[328px]  flex flex-col  gap-2">
+            <div className="w-[328px]  flex flex-col  gap-2">
               <span className="font-bold">Best selling</span>
-              <span className="text-sm font-medium text-gray-500"> THIS MONTH</span>
+              <span className="text-sm font-medium text-gray-500">
+                {" "}
+                THIS MONTH
+              </span>
             </div>
-           
 
             <hr className="bg-gray-700 w-[330x] h-[0.5px]"></hr>
-            
+
             <div className="flex gap-4 flex-col">
-
-            <div className="flex items-center space-x-2 mt-5">
-               <span className="font-bold text-3xl">$2,400 — </span>
-               <span className="text-lg text-gray-500">Total sales</span>
-           </div>
-
+              <div className="flex items-center space-x-2 mt-5">
+                <span className="font-bold text-3xl">$2,400 — </span>
+                <span className="text-lg text-gray-500">Total sales</span>
+              </div>
 
               <div className="flex border-[0.5px] border-solid rounded-xl border-gray-400 text-sm justify-center w-[280px]">
-               <span className="text-gray-600">Classic monochrome tees  — </span>
-               <span className="font-medium">$940 sales</span>
+                <span className="text-gray-600">
+                  Classic monochrome tees —
+                </span>
+                <span className="font-medium">$940 sales</span>
               </div>
 
-              <div className="flex border-[0.5px] border-solid rounded-xl border-gray-400 text-sm justify-center w-[280px]" >
-               <span className="text-gray-600">Monochromatic wardrobe — </span>
-               <span className="font-medium">$790 sales</span>
+              <div className="flex border-[0.5px] border-solid rounded-xl border-gray-400 text-sm justify-center w-[280px]">
+                <span className="text-gray-600">Monochromatic wardrobe — </span>
+                <span className="font-medium">$790 sales</span>
               </div>
 
-              <div className="flex border-[0.5px] border-solid rounded-xl border-gray-400 text-sm justify-center w-[220px]" >
-               <span className="text-gray-600">Essential neutrals  — </span>
-               <span className="font-medium">$740 sales</span>
+              <div className="flex border-[0.5px] border-solid rounded-xl border-gray-400 text-sm justify-center w-[220px]">
+                <span className="text-gray-600">Essential neutrals — </span>
+                <span className="font-medium">$740 sales</span>
               </div>
-              
-              <img className="w-[96px] h-[96px] m-4" src="/img/donati.svg"/>
+
+              <img className="w-[96px] h-[96px] m-4" src="/img/donati.svg" />
             </div>
-
           </div>
 
-          <div className="w-[640px] h-[435px]  bg-purple-800 ">
+          <div className="w-[640px] h-[430px] bg-white rounded-lg">
+            <div className="relative overflow-x-auto">
+              <div>
+                <span>Recent orders</span>
+                <span>View all</span>
+              </div>
 
+              <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                <thead className="text-xs text-gray-700 uppercase bg-white dark:bg-gray-700 dark:text-gray-400 border-b border-t">
+                  <tr>
+                       <th scope="col" className="px-6 py-3"> Item</th>
+                       <th scope="col" className="px-6 py-3">Date</th>
+                       <th scope="col" className="px-6 py-3">Total </th>
+                       <th scope="col" className="px-6 py-3">  Status </th>
+                  </tr>
+               </thead>
+                      
+              <tbody>
+                  <tr className="bg-white  dark:bg-gray-800 dark:border-gray-700 border-b border-gray-100">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white ">  Apple MacBook Pro 17" </th>
+                     <td className="px-6 py-4">Silver</td>
+                     <td className="px-6 py-4">Laptop</td>
+                     <td className="px-6 py-4">$2999</td>
+                  </tr>
+                   
+                    
+                    
+                  <tr className="bg-white  dark:bg-gray-800 dark:border-gray-700 border-b border-gray-100">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white" >Microsoft Surface Pro  </th>
+                      <td className="px-6 py-4">White</td>
+                      <td className="px-6 py-4">Laptop PC</td>
+                      <td className="px-6 py-4">$1999</td>
+                 </tr>
+                     
+                   
+                  <tr className="bg-white dark:bg-gray-800  border-b border-gray-100">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white  "> Magic Mouse 2 </th>
+                      <td className="px-6 py-4">Black</td>
+                      <td className="px-6 py-4">Accessories</td>
+                      <td className="px-6 py-4">$99</td>
+                  </tr>
+                
+               
+                    
+                  <tr className="bg-white dark:bg-gray-800 border-b border-gray-100">
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white  ">Magic Mouse 2 </th>
+                       <td className="px-6 py-4">Black</td>
+                       <td className="px-6 py-4">Accessories</td>
+                       <td className="px-6 py-4">$99</td>
+                  </tr>
+                    
+                     
+                     <tr className="bg-white dark:bg-gray-800  border-b border-gray-100">
+                     <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white  border-b border-gray-100" > Magic Mouse 2  </th>
+                      <td className="px-6 py-4">Black</td>
+                      <td className="px-6 py-4">Accessories</td>
+                      <td className="px-6 py-4">$99</td>
+                  </tr>  
+                     
+                   
 
+                    
 
+                    
+                
+                      
+                  
+                    
+                 
+                     
+                      
+                     
+                    
+                  
+
+                   
+                      
+                   
+                 
+
+                 
+                   
+                  
+                   
+                 
+                </tbody>
+              </table>
+            </div>
           </div>
-         
-           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
       </div>
     </div>
