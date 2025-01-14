@@ -20,7 +20,9 @@ import Adminpageproducts from "./pages/Adminpageproducts";
 import Adminpageorders from "./pages/Adminpageorders";
 import Adminpagecostumers from "./pages/Adminpagecostumers";
 import Adminpagereviews from "./pages/Adminpagereviews";
+import Adminpagesettings from "./pages/Adminpagesettings";
 import { Routes, Route } from "react-router-dom";
+
 
 
 
@@ -53,6 +55,7 @@ const App = () => {
         <Route path="/adminpageorders" element={<Adminpageorders/>}/>
         <Route path="/adminpagecostumers" element={<Adminpagecostumers/>}/>
         <Route path="/adminpagereviews" element={<Adminpagereviews/>}/>
+        <Route path="/adminpagesettings" element={<Adminpagesettings/>}/>
         
        
 

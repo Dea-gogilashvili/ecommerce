@@ -99,7 +99,7 @@ const Reviewsadminpage: React.FC = () => {
         <div className="max-w-[1300px] h-[750px] bg-white rounded-lg mt-14">
           <div className="relative overflow-x-auto">
             <div className="flex gap-[750px] mt-7 ml-5 mb-5 items-center">
-              <span className="font-bold">Products</span>
+              <span className="font-bold">Reviews</span>
               <div className="flex items-center gap-3">
                 <button className="bg-black text-white rounded-md text-sm w-[124px] h-[35px]">Add product</button>
                 <input
