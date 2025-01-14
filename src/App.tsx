@@ -17,8 +17,9 @@ import Profilepagenoorders from "./pages/Profilepagenoorders"
 import Adminpagelogin from "./pages/Adminpagelogin"
 import Adminpagedashboard from "./pages/Adminpagedashboard";
 import Adminpageproducts from "./pages/Adminpageproducts";
-
+import Adminpageorders from "./pages/Adminpageorders";
 import { Routes, Route } from "react-router-dom";
+
 
 
 
@@ -46,6 +47,7 @@ const App = () => {
         <Route path="/adminpagelogin" element={<Adminpagelogin/>}/>
         <Route path="/adminpagedashboard" element={<Adminpagedashboard/>}/>
         <Route path="/adminpageproducts" element={<Adminpageproducts/>}/>
+        <Route path="/adminpageorders" element={<Adminpageorders/>}/>
         
        
 
