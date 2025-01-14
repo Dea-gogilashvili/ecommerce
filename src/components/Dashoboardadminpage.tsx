@@ -108,11 +108,11 @@ const Dashboardadminpage = () => {
           <div className=" max-w-[330px] max-h-[475px] flex flex-col  gap-2 bg-white rounded-lg shadow-lg p-4">
             <div className="w-[328px]  flex flex-col  gap-2">
               <span className="font-bold">Best selling</span>
-              <span className="text-sm font-medium text-gray-500">
-                {" "}
-                THIS MONTH
-              </span>
-            </div>
+              <span className="text-sm font-medium text-gray-500">THIS MONTH</span>
+            </div> 
+                
+              
+           
 
             <hr className="bg-gray-700 w-[330x] h-[0.5px]"></hr>
 
@@ -124,9 +124,9 @@ const Dashboardadminpage = () => {
 
               <div className="flex border-[0.5px] border-solid rounded-xl border-gray-400 text-sm justify-center w-[280px]">
                 <span className="text-gray-600">
-                  Classic monochrome tees —
-                </span>
-                <span className="font-medium">$940 sales</span>
+                  Classic monochrome tees —  </span>
+                 <span className="font-medium">$940 sales</span>
+               
               </div>
 
               <div className="flex border-[0.5px] border-solid rounded-xl border-gray-400 text-sm justify-center w-[280px]">
@@ -143,11 +143,11 @@ const Dashboardadminpage = () => {
             </div>
           </div>
 
-          <div className="w-[640px] h-[430px] bg-white rounded-lg">
+          <div className="w-[730px] h-[420px] bg-white rounded-lg ml-[-200px]  ">
             <div className="relative overflow-x-auto">
-              <div>
-                <span>Recent orders</span>
-                <span>View all</span>
+              <div className="flex gap-3 mt-7 ml-5 mb-5">
+                <span className="font-bold">Recent orders</span>
+                <span className="bg-gray-200 rounded-xl w-[70px] text-sm flex justify-center items-center text-gray-600">View all</span>
               </div>
 
               <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
@@ -162,44 +162,44 @@ const Dashboardadminpage = () => {
                       
               <tbody>
                   <tr className="bg-white  dark:bg-gray-800 dark:border-gray-700 border-b border-gray-100">
-                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white ">  Apple MacBook Pro 17" </th>
-                     <td className="px-6 py-4">Silver</td>
-                     <td className="px-6 py-4">Laptop</td>
-                     <td className="px-6 py-4">$2999</td>
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-400 whitespace-nowrap dark:text-white ">  Mens black t-shirt </th>
+                     <td className="px-6 py-4">20 mar,2023</td>
+                     <td className="px-6 py-4">$75.00</td>
+                     <td className="px-6 py-4">Shipped</td>
                   </tr>
                    
                     
                     
                   <tr className="bg-white  dark:bg-gray-800 dark:border-gray-700 border-b border-gray-100">
-                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white" >Microsoft Surface Pro  </th>
-                      <td className="px-6 py-4">White</td>
-                      <td className="px-6 py-4">Laptop PC</td>
-                      <td className="px-6 py-4">$1999</td>
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-400 whitespace-nowrap dark:text-white" >Microsoft Surface Pro  </th>
+                      <td className="px-6 py-4">7 jul,2050</td>
+                      <td className="px-6 py-4">$22.00</td>
+                      <td className="px-6 py-4">Completed</td>
                  </tr>
                      
                    
                   <tr className="bg-white dark:bg-gray-800  border-b border-gray-100">
-                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white  "> Magic Mouse 2 </th>
-                      <td className="px-6 py-4">Black</td>
-                      <td className="px-6 py-4">Accessories</td>
-                      <td className="px-6 py-4">$99</td>
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-400 whitespace-nowrap dark:text-white  "> Monochromatic wardrobe</th>
+                      <td className="px-6 py-4">10 nov,2024</td>
+                      <td className="px-6 py-4">$57.00</td>
+                      <td className="px-6 py-4">Shipped</td>
                   </tr>
                 
                
                     
                   <tr className="bg-white dark:bg-gray-800 border-b border-gray-100">
-                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white  ">Magic Mouse 2 </th>
-                       <td className="px-6 py-4">Black</td>
-                       <td className="px-6 py-4">Accessories</td>
-                       <td className="px-6 py-4">$99</td>
+                    <th scope="row" className="px-6 py-4 font-medium text-gray-400 whitespace-nowrap dark:text-white  ">Mockup-black</th>
+                       <td className="px-6 py-4">27 jan,2020</td>
+                       <td className="px-6 py-4">$30.00</td>
+                       <td className="px-6 py-4">Proccessing</td>
                   </tr>
                     
                      
                      <tr className="bg-white dark:bg-gray-800  border-b border-gray-100">
-                     <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white  border-b border-gray-100" > Magic Mouse 2  </th>
-                      <td className="px-6 py-4">Black</td>
-                      <td className="px-6 py-4">Accessories</td>
-                      <td className="px-6 py-4">$99</td>
+                     <th scope="row" className="px-6 py-4 font-medium text-gray-400 whitespace-nowrap dark:text-white  border-b border-gray-100" > Sleeck and cozy black  </th>
+                      <td className="px-6 py-4">28 may, 2025</td>
+                      <td className="px-6 py-4">27.00$</td>
+                      <td className="px-6 py-4">Completed</td>
                   </tr>  
                      
                    
