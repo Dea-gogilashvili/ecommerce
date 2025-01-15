@@ -157,7 +157,7 @@ const Settingsadminpage = () => {
 
         <div className="max-w-[1000px]  h-[500px] bg-white rounded-lg  mt-14">
           <div className="relative overflow-x-auto">
-            <div className="flex gap-[750px] mt-7 ml-5 mb-5 items-center  ">
+            <div className="flex gap-[750px] mt-7 ml-5 mb-5 items-center border-b ">
               <span className="font-bold ">Settings</span>
             </div>
           </div>
