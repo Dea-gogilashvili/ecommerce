@@ -1,3 +1,5 @@
+
+
 import Header from "../components/Header";
 import Slider from '../components/Slider';
 import Shipping from '../components/Shipping';
@@ -11,42 +13,48 @@ import Footer from "../components/Footer";
 import Copyrightline from "../components/Copyrightline";
 import { useEffect, useState } from "react";
 
-
-
 const Main = () => {
-  const [apiData, setApiData] = useState([])
+  const [apiData, setApiData] = useState<any>([]);
+  const [apiDataSecond, setApiDataSecond] = useState<any[]>([]);
 
   const getMainPageData = async () => {
     try {
-      const res = await fetch('https://fakestoreapi.com/products?limit=4')
-      const data = await res.json()
-
-      setApiData(data)
+      const res = await fetch('https://fakestoreapi.com/products?limit=4');
+      const data = await res.json();
+      setApiData(data);
     } catch (error) {
       console.log(error);
     }
-  }
+  };
 
-  useEffect(()=> {
-    getMainPageData() 
-  },[])
+  const getSecondGridData = async () => {
+    try {
+      const res = await fetch('https://fakestoreapi.com/products?limit=4');
+      const data = await res.json();
+      setApiDataSecond(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    getMainPageData();
+    getSecondGridData();
+  }, []);
 
   return (
     <div>
       <Header />
       <Slider />
-      <Shipping  />
-      <ShopNow  />
+      <Shipping />
+      <ShopNow />
       <Grid apiData={apiData} />
       <Poncho />
       <FeaturedLatest />
-      <GridSecond />
+      <GridSecond apiData={apiDataSecond} />
       <NewsLetter />
       <Footer />
       <Copyrightline />
-      
-
-      {/* <h2>Main Page</h2> */}
     </div>
   );
 };
