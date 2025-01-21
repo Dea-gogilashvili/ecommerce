@@ -113,7 +113,7 @@ const Settingsadminpage = () => {
   };
 
   return (
-    <div className="max-w-[1600px] bg-gray-100 flex">
+    <div className="max-w-[1600px]  bg-gray-100 flex">
       <div className="max-w-[260px] h-[770px] max-h-[770px]  px-10 mt-5">
         <div className="flex items-center gap-4 mb-20">
           <img src="/img/Adminpagelogo.svg" alt="Admin Logo" />
@@ -148,17 +148,17 @@ const Settingsadminpage = () => {
         </ul>
       </div>
 
-      <div className="flex-1 p-10 bg-slate-200 gap-3">
+      <div className="flex-1 p-10 bg-slate-200 gap-3 ">
         <div className="text-sm text-gray-600 flex items-center gap-3 ">
           <span className="font-medium">Admin</span>
           <img src="/img/Cartarrow.svg" className="ml-2" alt="Cart Arrow" />
           <span className="text-black">Dashboard</span>
         </div>
 
-        <div className="max-w-[1000px]  h-[500px] bg-white rounded-lg  mt-14">
+        <div className="max-w-[1000px]  h-[550px] bg-white rounded-lg  mt-14">
           <div className="relative overflow-x-auto">
             <div className="flex gap-[750px] mt-7 ml-5 mb-5 items-center border-b ">
-              <span className="font-bold ">Settings</span>
+              <span className="font-bold mb-4 ">Settings</span>
             </div>
           </div>
 
@@ -208,7 +208,7 @@ const Settingsadminpage = () => {
             <button
               type="button"
               onClick={SaveChanges}
-              className="w-[140px] bg-black text-white py-2 rounded hover:bg-gray-800 mt-9"
+              className="w-[140px] bg-black text-white py-2 rounded hover:bg-gray-800 mt-9 "
             >
               Save changes
             </button>
